@@ -242,3 +242,104 @@ footer .container {
   line-height: 20px;
   letter-spacing: 0%;
 }
+
+.header-content {
+  background: rgb(33, 37, 38);
+}
+
+.block-content {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.smths {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.work {
+  background-image: url('./images/work.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 640px;
+  height: 488px;
+}
+
+.de {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 48px;
+  margin-top: 32px;
+  width: 580px;
+  margin-bottom: 139px;
+}
+
+.ppp {
+  padding-left: 24px;
+}
+
+.bbtn {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 14px 32px;
+  border-radius: 5px;
+  background: rgb(240, 90, 0);
+  transition: 0.2s;
+}
+.bbtn:hover {
+  background: rgb(33, 37, 38);
+}
+
+.shrup {
+  background-image: url('./images/shrup.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 311px;
+  height: 488px;
+}
+.pp {
+  padding: 16px 0 0 16px;
+}
+.shr {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+
+.smth1 {
+  background-image: url('./images/smth1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 234px;
+}
+.smth2 {
+  background-image: url('./images/smth2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 234px;
+}
+
+.one {
+  padding: 16px 0 0 16px;
+}
+
+.one h1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
