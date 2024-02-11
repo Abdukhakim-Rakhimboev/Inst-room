@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inst room /main</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style.scss">
 </head>
 <body>
     <header>
@@ -21,21 +20,44 @@
                     </div>
                     <section class="piu">
                         <div class="icons">
-                            <div class="icon">
+                            <button class="icon">
                                 <span class="icon__count">0</span>
-                                <a href="#"><img src="./images/liked.png" alt="liked" class="sections"></a>
-                            </div>
-                            <div class="icon">
+                                <img src="./images/liked.png" alt="liked" class="sections">
+                            </button>
+                            <button class="icon">
                                 <span class="icon__count">0</span>
-                                <a href="#"><img src="./images/statistics.png" alt="liked" class="sections"></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="./images/personal.png" alt="liked" class="sections"></a>
-                            </div>
-                            <div class="icon">
+                                <img src="./images/statistics.png" alt="liked">
+                            </button>
+                            <a href="#" class="iconn">
+                                <img src="./images/personal.png" alt="liked">
+                            </a>
+                            <button class="icoon">
                                 <span class="icon__count">0</span>
-                                <a href="#"><img src="./images/shopping.png" alt="liked" class="sections"></a>
-                            </div>
+                                <img src="./images/shopping.png" alt="liked">
+                                
+                                <div class="shopping__list">
+                                    <div class="shopping__list-top">
+                                        Корзина
+                                        <a class="list__top-close">
+                                            <img src="./images/arrow-left.png" alt="close">
+                                        </a>
+                                    </div>
+                                    <div class="shopping__list-mid">
+                                        <div class="shop__mid-items">
+                                            <div class="mid__items-left">
+                                                
+                                            </div>
+                                            <div class="mid__items-right">
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="shopping__list-bottom">
+                                        Заказы
+                                        <span class="list__bottom-price">0</span>
+                                    </div>
+                                </div>
+                            </button>
                         </div>
                         <div class="sm">
                             <p class="add">Товаров на сумму</p>
@@ -99,7 +121,57 @@
         </section>
     </header>
     <main>
-        <div class="container"></div>
+        <div class="container">
+            <section class="type">
+                <h1 class="type__name">Малярные товары</h1>
+                <div class="items">
+                    <div class="item">
+                        <div class="top-sec">
+                            <span class="new">Новинка</span>
+                            <div class="emojy">
+                                <img src="./images/sta2.png" alt="statistics" class="s">
+                                <img src="./images/liked2.png" alt="liked" class="l">
+                            </div>
+                        </div>
+                        <section class="tovar">
+                            <img src="./images/color.png" alt="color" class="color">
+                        </section>
+                        <section class="infos">
+                            <h1 class="des">Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+                            <div class="info">
+                                <div class="prices">
+                                    <span class="price">500 ₽</span>
+                                    <span class="old__price">720 ₽</span>
+                                </div>
+                                <button><img src="./images/shop.png" alt="shop" class="shop"></button>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="item">
+                        <div class="top-sec">
+                            <span class="new">Новинка</span>
+                            <div class="emojy">
+                                <img src="./images/sta2.png" alt="statistics" class="s">
+                                <img src="./images/liked2.png" alt="liked" class="l">
+                            </div>
+                        </div>
+                        <section class="tovar">
+                            <img src="./images/objekt.png" alt="color" class="color">
+                        </section>
+                        <section class="infos">
+                            <h1 class="des">Эмаль Condor ПФ-115 жёлтая 1,8 кг</h1>
+                            <div class="info">
+                                <div class="prices">
+                                    <span class="price">500 ₽</span>
+                                    <span class="old__price">720 ₽</span>
+                                </div>
+                                <button><img src="./images/shop.png" alt="shop" class="shop"></button>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="container"></div>
