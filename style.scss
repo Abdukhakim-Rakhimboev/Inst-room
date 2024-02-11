@@ -1,38 +1,144 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-header {
-    .container {
-        margin: 0 auto;
-        max-width: 1300px;
-        width: 100%;
-    }
+header .container {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
 }
 
-main {
-    .container {
-        margin: 0 auto;
-        max-width: 1300px;
-        width: 100%;
-    }
+main .container {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
 }
 
-footer {
-    .container {
-        margin: 0 auto;
-        max-width: 1300px;
-        width: 100%;
-    }
+footer .container {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
 }
+
+.nav {
+  height: 96px;
+  background: rgb(33, 37, 38);
+  display: flex;
+  align-items: center;
+}
+
+.nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weekly__time {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.num {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.zakaz {
+  color: rgb(252, 87, 59);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-decoration-line: underline;
+}
+
+.our_num {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.piu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icons {
+  display: flex;
+  gap: 1px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  background: rgb(59, 59, 59);
+  transition: 0.2s;
+  position: relative;
+}
+
+.icon:hover {
+  background: rgb(240, 90, 0);
+}
+
+.sm {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.add {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.sm span {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.icon__count {
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0%;
+  padding: 5px 8px;
+  border-radius: 50%;
+  background: rgb(240, 90, 0);
+  position: absolute;
+  top: 23px;
+  right: 20px;
+}
+
+.icon:hover .icon__count {
+  background: rgb(59, 59, 59);
+}
+
+/*# sourceMappingURL=style.scss.map */
