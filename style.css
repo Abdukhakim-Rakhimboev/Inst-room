@@ -150,6 +150,27 @@ footer .container {
 .icon:hover .icon__count{
   background: rgb(59, 59, 59);
 }
+.icoon__count {
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+  padding: 5px 8px;
+  border-radius: 50%;
+  background: rgb(240, 90, 0);
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  transform: scale(0);
+}
+.icoon__count.active {
+  transform: scale(1);
+}
+
+
+.icoon:hover .icoon__count{
+  background: rgb(59, 59, 59);
+}
 
 /* .sections {
   background: rgb(59, 59, 59);
@@ -467,9 +488,21 @@ main {
   right: -12px;
   bottom: -12px;
   padding: 12px 14px;
-  box-sizing: border-box;
   border: 2px solid rgb(240, 90, 0);
   border-radius: 5px 0px 5px 0px;
+  transition: 0.2s;
+}
+.shop:hover {
+  background-color: moccasin;
+}
+.shopp {
+  position: absolute;
+  right: -12px;
+  bottom: -12px;
+  padding: 12px 14px;
+  border: 2px solid rgb(240, 90, 0);
+  border-radius: 5px 0px 5px 0px;
+  background-color: rgb(240, 90, 0);
 }
 
 .tovar {
@@ -505,6 +538,8 @@ main {
 }
 
 .shopping__list {
+  transform: translateY(-150%);
+  transition: 300ms;
   position: absolute;
   width: 542px;
   height: 450px;
@@ -513,6 +548,9 @@ main {
   top: 114px;
   flex-direction: column;
   justify-content: space-between;
+}
+.shopping__list.active {
+  transform: translateY(0);
 }
 
 .shopping__list-top {
@@ -544,4 +582,80 @@ main {
   background-color: #fff;
   height: 100%;
   padding: 20px;
+}
+
+
+.shop__mid-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mid__items-left {
+  display: flex;
+  align-items: center;
+}
+.prod {
+  width: 80px;
+}
+
+.pro__name {
+  width: 220px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.pro__price {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.left__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mid__items-right {
+  display: flex;
+  background: rgb(59, 59, 59);
+  border-radius: 4px;
+}
+
+.right__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  padding-bottom: 4px;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.right__count {
+  background-color: blanchedalmond;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.minus:hover {
+  background-color: red;
+  border-radius: 4px 0 0 4px;
+}
+.plus:hover {
+  background-color: limegreen;
+  border-radius: 0 4px 4px 0;
+}
+
+.list__top-close {
+  background-color: crimson;
 }
